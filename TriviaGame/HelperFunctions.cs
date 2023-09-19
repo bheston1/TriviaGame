@@ -1,24 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TriviaGame
+﻿namespace TriviaGame
 {
     internal class HelperFunctions
     {
-        internal static void TitleScreen()
-        {
-            Console.WriteLine("                     ▄▄              ▄▄                                                          \r\n███▀▀██▀▀███         ██              ██               ▄▄█▀▀▀█▄█                                  \r\n█▀   ██   ▀█                                        ▄██▀     ▀█                                  \r\n     ██    ▀███▄███▀███ ▀██▀   ▀██▀▀███  ▄█▀██▄     ██▀       ▀ ▄█▀██▄ ▀████████▄█████▄   ▄▄█▀██ \r\n     ██      ██▀ ▀▀  ██   ██   ▄█    ██ ██   ██     ██         ██   ██   ██    ██    ██  ▄█▀   ██\r\n     ██      ██      ██    ██ ▄█     ██  ▄█████     ██▄    ▀████▄█████   ██    ██    ██  ██▀▀▀▀▀▀\r\n     ██      ██      ██     ███      ██ ██   ██     ▀██▄     ████   ██   ██    ██    ██  ██▄    ▄\r\n   ▄████▄  ▄████▄  ▄████▄    █     ▄████▄████▀██▄     ▀▀███████▀████▀██▄████  ████  ████▄ ▀█████▀\r\n                                                                                                 \r\n                                                                                                 \r\n");
-
-
-            Console.WriteLine("Press ENTER");
-            PressEnter();
-            MenuController.ShowMenu();
-        }
-
-        private static void PressEnter()
+        internal static void PressEnter()
         {
             ConsoleKeyInfo key;
             do
@@ -26,5 +10,17 @@ namespace TriviaGame
                 key = Console.ReadKey(true);
             } while (key.Key != ConsoleKey.Enter);
         }
+
+        internal static string ValidateResult(string answer)
+        {
+            while (string.IsNullOrEmpty(answer))
+            {
+                Console.Write("\nPlease enter a valid answer and try again.\nAnswer: ");
+                answer = Console.ReadLine();
+            }
+
+            return answer;
+        }
+
     }
 }
