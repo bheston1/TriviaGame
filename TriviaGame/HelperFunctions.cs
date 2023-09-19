@@ -11,7 +11,7 @@
             } while (key.Key != ConsoleKey.Enter);
         }
 
-        internal static string ValidateResult(string answer)
+        internal static string ValidateAnswer(string answer)
         {
             while (string.IsNullOrEmpty(answer))
             {

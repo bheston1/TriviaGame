@@ -42,7 +42,7 @@ B - K2
 C - Mount Kilimanjaro
 D - Broad Peak");
                         var answer1 = Console.ReadLine();
-                        answer1 = HelperFunctions.ValidateResult(answer1);
+                        answer1 = HelperFunctions.ValidateAnswer(answer1);
                         if (answer1.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -65,7 +65,7 @@ B - Russia
 C - United States
 D - India");
                         var answer2 = Console.ReadLine();
-                        answer2 = HelperFunctions.ValidateResult(answer2);
+                        answer2 = HelperFunctions.ValidateAnswer(answer2);
                         if (answer2.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -88,7 +88,7 @@ B - Nile River
 C - Kagera River
 D - Orange River");
                         var answer3 = Console.ReadLine();
-                        answer3 = HelperFunctions.ValidateResult(answer3);
+                        answer3 = HelperFunctions.ValidateAnswer(answer3);
                         if (answer3.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -111,7 +111,7 @@ B - Acapulco
 C - Matamoros
 D - Mexico City");
                         var answer4 = Console.ReadLine();
-                        answer4 = HelperFunctions.ValidateResult(answer4);
+                        answer4 = HelperFunctions.ValidateAnswer(answer4);
                         if (answer4.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -134,7 +134,7 @@ B - Atlantic Ocean
 C - Indian Ocean
 D - Arctic Ocean");
                         var answer5 = Console.ReadLine();
-                        answer5 = HelperFunctions.ValidateResult(answer5);
+                        answer5 = HelperFunctions.ValidateAnswer(answer5);
                         if (answer5.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -157,7 +157,7 @@ B - Monaco
 C - Vatican City
 D - New Zealand");
                         var answer6 = Console.ReadLine();
-                        answer6 = HelperFunctions.ValidateResult(answer6);
+                        answer6 = HelperFunctions.ValidateAnswer(answer6);
                         if (answer6.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -180,7 +180,7 @@ B - Rhode Island
 C - New York
 D - Wyoming");
                         var answer7 = Console.ReadLine();
-                        answer7 = HelperFunctions.ValidateResult(answer7);
+                        answer7 = HelperFunctions.ValidateAnswer(answer7);
                         if (answer7.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -203,7 +203,7 @@ B - The Amazon
 C - Yangtze River
 D - Congo River");
                         var answer8 = Console.ReadLine();
-                        answer8 = HelperFunctions.ValidateResult(answer8);
+                        answer8 = HelperFunctions.ValidateAnswer(answer8);
                         if (answer8.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -226,7 +226,7 @@ B - Euro
 C - Pound sterling
 D - U.K. Dollar");
                         var answer9 = Console.ReadLine();
-                        answer9 = HelperFunctions.ValidateResult(answer9);
+                        answer9 = HelperFunctions.ValidateAnswer(answer9);
                         if (answer9.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -249,7 +249,7 @@ B - Luxor
 C - Cairo
 D - Giza");
                         var answer10 = Console.ReadLine();
-                        answer10 = HelperFunctions.ValidateResult(answer10);
+                        answer10 = HelperFunctions.ValidateAnswer(answer10);
                         if (answer10.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -293,7 +293,7 @@ B - Russia
 C - Africa
 D - Asia");
                         var answer1 = Console.ReadLine();
-                        answer1 = HelperFunctions.ValidateResult(answer1);
+                        answer1 = HelperFunctions.ValidateAnswer(answer1);
                         if (answer1.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -316,7 +316,7 @@ B - Los Angeles
 C - New York
 D - Seattle");
                         var answer2 = Console.ReadLine();
-                        answer2 = HelperFunctions.ValidateResult(answer2);
+                        answer2 = HelperFunctions.ValidateAnswer(answer2);
                         if (answer2.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -339,7 +339,7 @@ B - Russia
 C - China
 D - Australia");
                         var answer3 = Console.ReadLine();
-                        answer3 = HelperFunctions.ValidateResult(answer3);
+                        answer3 = HelperFunctions.ValidateAnswer(answer3);
                         if (answer3.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -362,7 +362,7 @@ B - Vancouver
 C - Toronto
 D - Ottawa");
                         var answer4 = Console.ReadLine();
-                        answer4 = HelperFunctions.ValidateResult(answer4);
+                        answer4 = HelperFunctions.ValidateAnswer(answer4);
                         if (answer4.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -385,7 +385,7 @@ B - Pompeii
 C - Naples
 D - Venice");
                         var answer5 = Console.ReadLine();
-                        answer5 = HelperFunctions.ValidateResult(answer5);
+                        answer5 = HelperFunctions.ValidateAnswer(answer5);
                         if (answer5.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -408,7 +408,7 @@ B - 4
 C - 11
 D - 6");
                         var answer6 = Console.ReadLine();
-                        answer6 = HelperFunctions.ValidateResult(answer6);
+                        answer6 = HelperFunctions.ValidateAnswer(answer6);
                         if (answer6.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -431,7 +431,7 @@ B - Marijuana
 C - Birch
 D - Oak");
                         var answer7 = Console.ReadLine();
-                        answer7 = HelperFunctions.ValidateResult(answer7);
+                        answer7 = HelperFunctions.ValidateAnswer(answer7);
                         if (answer7.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -454,7 +454,7 @@ B - Antarctica
 C - South America
 D - Asia");
                         var answer8 = Console.ReadLine();
-                        answer8 = HelperFunctions.ValidateResult(answer8);
+                        answer8 = HelperFunctions.ValidateAnswer(answer8);
                         if (answer8.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -477,7 +477,7 @@ B - Sweden
 C - Poland
 D - Switzerland");
                         var answer9 = Console.ReadLine();
-                        answer9 = HelperFunctions.ValidateResult(answer9);
+                        answer9 = HelperFunctions.ValidateAnswer(answer9);
                         if (answer9.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -500,7 +500,7 @@ B - Kansas
 C - Florida
 D - Nevada");
                         var answer10 = Console.ReadLine();
-                        answer10 = HelperFunctions.ValidateResult(answer10);
+                        answer10 = HelperFunctions.ValidateAnswer(answer10);
                         if (answer10.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -544,7 +544,7 @@ B - Mississippi River
 C - Snake River
 D - Red River");
                         var answer1 = Console.ReadLine();
-                        answer1 = HelperFunctions.ValidateResult(answer1);
+                        answer1 = HelperFunctions.ValidateAnswer(answer1);
                         if (answer1.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -567,7 +567,7 @@ B - Amsterdam
 C - Berlin
 D - Copenhagen");
                         var answer2 = Console.ReadLine();
-                        answer2 = HelperFunctions.ValidateResult(answer2);
+                        answer2 = HelperFunctions.ValidateAnswer(answer2);
                         if (answer2.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -590,7 +590,7 @@ B - Alaska
 C - North Dakota
 D - California");
                         var answer3 = Console.ReadLine();
-                        answer3 = HelperFunctions.ValidateResult(answer3);
+                        answer3 = HelperFunctions.ValidateAnswer(answer3);
                         if (answer3.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -613,7 +613,7 @@ B - China
 C - Switzerland
 D - Ukraine");
                         var answer4 = Console.ReadLine();
-                        answer4 = HelperFunctions.ValidateResult(answer4);
+                        answer4 = HelperFunctions.ValidateAnswer(answer4);
                         if (answer4.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -636,7 +636,7 @@ B - Poland
 C - Austria
 D - United Kingdom");
                         var answer5 = Console.ReadLine();
-                        answer5 = HelperFunctions.ValidateResult(answer5);
+                        answer5 = HelperFunctions.ValidateAnswer(answer5);
                         if (answer5.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -659,7 +659,7 @@ B - France
 C - Germany
 D - Belgium");
                         var answer6 = Console.ReadLine();
-                        answer6 = HelperFunctions.ValidateResult(answer6);
+                        answer6 = HelperFunctions.ValidateAnswer(answer6);
                         if (answer6.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -682,7 +682,7 @@ B - Venice
 C - Athens
 D - Rome");
                         var answer7 = Console.ReadLine();
-                        answer7 = HelperFunctions.ValidateResult(answer7);
+                        answer7 = HelperFunctions.ValidateAnswer(answer7);
                         if (answer7.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -705,7 +705,7 @@ B - Japan Trench
 C - Philippine Trench
 D - Peru-Chile Trench");
                         var answer8 = Console.ReadLine();
-                        answer8 = HelperFunctions.ValidateResult(answer8);
+                        answer8 = HelperFunctions.ValidateAnswer(answer8);
                         if (answer8.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -728,7 +728,7 @@ B - United States
 C - Canada
 D - Russia");
                         var answer9 = Console.ReadLine();
-                        answer9 = HelperFunctions.ValidateResult(answer9);
+                        answer9 = HelperFunctions.ValidateAnswer(answer9);
                         if (answer9.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -751,7 +751,7 @@ B - Great Pyramid of Giza
 C - Leaning Tower of Pisa
 D - Great Wall of China");
                         var answer10 = Console.ReadLine();
-                        answer10 = HelperFunctions.ValidateResult(answer10);
+                        answer10 = HelperFunctions.ValidateAnswer(answer10);
                         if (answer10.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");

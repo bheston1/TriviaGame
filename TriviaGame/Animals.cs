@@ -42,7 +42,7 @@ B - litter
 C - clowder
 D - flock");
                         var answer1 = Console.ReadLine();
-                        answer1 = HelperFunctions.ValidateResult(answer1);
+                        answer1 = HelperFunctions.ValidateAnswer(answer1);
                         if (answer1.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -65,7 +65,7 @@ B - polar bear
 C - lion
 D - red panda");
                         var answer2 = Console.ReadLine();
-                        answer2 = HelperFunctions.ValidateResult(answer2);
+                        answer2 = HelperFunctions.ValidateAnswer(answer2);
                         if (answer2.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -88,7 +88,7 @@ B - nose
 C - paws
 D - teeth");
                         var answer3 = Console.ReadLine();
-                        answer3 = HelperFunctions.ValidateResult(answer3);
+                        answer3 = HelperFunctions.ValidateAnswer(answer3);
                         if (answer3.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -111,7 +111,7 @@ B - flying squirrel
 C - hummingbird
 D - sugar glider");
                         var answer4 = Console.ReadLine();
-                        answer4 = HelperFunctions.ValidateResult(answer4);
+                        answer4 = HelperFunctions.ValidateAnswer(answer4);
                         if (answer4.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -134,7 +134,7 @@ B - basketball
 C - walnut
 D - lima bean");
                         var answer5 = Console.ReadLine();
-                        answer5 = HelperFunctions.ValidateResult(answer5);
+                        answer5 = HelperFunctions.ValidateAnswer(answer5);
                         if (answer5.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -157,7 +157,7 @@ B - guinea pig
 C - bumblebee bat
 D - squirrel");
                         var answer6 = Console.ReadLine();
-                        answer6 = HelperFunctions.ValidateResult(answer6);
+                        answer6 = HelperFunctions.ValidateAnswer(answer6);
                         if (answer6.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -180,7 +180,7 @@ B - grizzly bear
 C - koala
 D - sloth");
                         var answer7 = Console.ReadLine();
-                        answer7 = HelperFunctions.ValidateResult(answer7);
+                        answer7 = HelperFunctions.ValidateAnswer(answer7);
                         if (answer7.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -203,7 +203,7 @@ B - 25 miles
 C - 10 miles
 D - 6 miles");
                         var answer8 = Console.ReadLine();
-                        answer8 = HelperFunctions.ValidateResult(answer8);
+                        answer8 = HelperFunctions.ValidateAnswer(answer8);
                         if (answer8.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -226,7 +226,7 @@ B - alligator
 C - hippopotamus
 D - tiger");
                         var answer9 = Console.ReadLine();
-                        answer9 = HelperFunctions.ValidateResult(answer9);
+                        answer9 = HelperFunctions.ValidateAnswer(answer9);
                         if (answer9.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -249,7 +249,7 @@ B - inside their ears
 C - on their nose
 D - on their tail");
                         var answer10 = Console.ReadLine();
-                        answer10 = HelperFunctions.ValidateResult(answer10);
+                        answer10 = HelperFunctions.ValidateAnswer(answer10);
                         if (answer10.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -293,7 +293,7 @@ B - kit
 C - drake
 D - doe");
                         var answer1 = Console.ReadLine();
-                        answer1 = HelperFunctions.ValidateResult(answer1);
+                        answer1 = HelperFunctions.ValidateAnswer(answer1);
                         if (answer1.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -316,7 +316,7 @@ B - up to 10,000
 C - up to 2,500
 D - up to 20,000");
                         var answer2 = Console.ReadLine();
-                        answer2 = HelperFunctions.ValidateResult(answer2);
+                        answer2 = HelperFunctions.ValidateAnswer(answer2);
                         if (answer2.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -339,7 +339,7 @@ B - chameleon
 C - frog
 D - bearded dragon");
                         var answer3 = Console.ReadLine();
-                        answer3 = HelperFunctions.ValidateResult(answer3);
+                        answer3 = HelperFunctions.ValidateAnswer(answer3);
                         if (answer3.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -362,7 +362,7 @@ B - swarm
 C - flock
 D - pandemonium");
                         var answer4 = Console.ReadLine();
-                        answer4 = HelperFunctions.ValidateResult(answer4);
+                        answer4 = HelperFunctions.ValidateAnswer(answer4);
                         if (answer4.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -385,7 +385,7 @@ B - goat
 C - pig
 D - chicken");
                         var answer5 = Console.ReadLine();
-                        answer5 = HelperFunctions.ValidateResult(answer5);
+                        answer5 = HelperFunctions.ValidateAnswer(answer5);
                         if (answer5.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -408,7 +408,7 @@ B - top quack
 C - stallion
 D - drake");
                         var answer6 = Console.ReadLine();
-                        answer6 = HelperFunctions.ValidateResult(answer6);
+                        answer6 = HelperFunctions.ValidateAnswer(answer6);
                         if (answer6.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -431,7 +431,7 @@ B - gecko
 C - alligator
 D - crocodile");
                         var answer7 = Console.ReadLine();
-                        answer7 = HelperFunctions.ValidateResult(answer7);
+                        answer7 = HelperFunctions.ValidateAnswer(answer7);
                         if (answer7.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -454,7 +454,7 @@ B - pufferfish
 C - starfish
 D - barracuda");
                         var answer8 = Console.ReadLine();
-                        answer8 = HelperFunctions.ValidateResult(answer8);
+                        answer8 = HelperFunctions.ValidateAnswer(answer8);
                         if (answer8.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -477,7 +477,7 @@ B - ghost crab
 C - oyster
 D - starfish");
                         var answer9 = Console.ReadLine();
-                        answer9 = HelperFunctions.ValidateResult(answer9);
+                        answer9 = HelperFunctions.ValidateAnswer(answer9);
                         if (answer9.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -500,7 +500,7 @@ B - wasp
 C - black widow
 D - camel spider");
                         var answer10 = Console.ReadLine();
-                        answer10 = HelperFunctions.ValidateResult(answer10);
+                        answer10 = HelperFunctions.ValidateAnswer(answer10);
                         if (answer10.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -544,7 +544,7 @@ B - pocket of skin in their armpits
 C - on their backs
 D - they carry it in one arm");
                         var answer1 = Console.ReadLine();
-                        answer1 = HelperFunctions.ValidateResult(answer1);
+                        answer1 = HelperFunctions.ValidateAnswer(answer1);
                         if (answer1.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -567,7 +567,7 @@ B - seahorse
 C - honey bee
 D - rabbit");
                         var answer2 = Console.ReadLine();
-                        answer2 = HelperFunctions.ValidateResult(answer2);
+                        answer2 = HelperFunctions.ValidateAnswer(answer2);
                         if (answer2.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -590,7 +590,7 @@ B - angelfish
 C - largemouth bass
 D - pufferfish");
                         var answer3 = Console.ReadLine();
-                        answer3 = HelperFunctions.ValidateResult(answer3);
+                        answer3 = HelperFunctions.ValidateAnswer(answer3);
                         if (answer3.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -613,7 +613,7 @@ B - claws
 C - eyes
 D - feet");
                         var answer4 = Console.ReadLine();
-                        answer4 = HelperFunctions.ValidateResult(answer4);
+                        answer4 = HelperFunctions.ValidateAnswer(answer4);
                         if (answer4.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -636,7 +636,7 @@ B - elephant
 C - hippopotamus
 D - bull shark");
                         var answer5 = Console.ReadLine();
-                        answer5 = HelperFunctions.ValidateResult(answer5);
+                        answer5 = HelperFunctions.ValidateAnswer(answer5);
                         if (answer5.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
@@ -659,7 +659,7 @@ B - spikelet
 C - kid
 D - hoglet");
                         var answer6 = Console.ReadLine();
-                        answer6 = HelperFunctions.ValidateResult(answer6);
+                        answer6 = HelperFunctions.ValidateAnswer(answer6);
                         if (answer6.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
@@ -682,7 +682,7 @@ B - 10%
 C - 3%
 D - 8%");
                         var answer7 = Console.ReadLine();
-                        answer7 = HelperFunctions.ValidateResult(answer7);
+                        answer7 = HelperFunctions.ValidateAnswer(answer7);
                         if (answer7.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -705,7 +705,7 @@ B - England
 C - Germany
 D - France");
                         var answer8 = Console.ReadLine();
-                        answer8 = HelperFunctions.ValidateResult(answer8);
+                        answer8 = HelperFunctions.ValidateAnswer(answer8);
                         if (answer8.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
@@ -728,7 +728,7 @@ B - porcupine
 C - duck-billed platypus
 D - naked mole-rat");
                         var answer9 = Console.ReadLine();
-                        answer9 = HelperFunctions.ValidateResult(answer9);
+                        answer9 = HelperFunctions.ValidateAnswer(answer9);
                         if (answer9.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
@@ -751,7 +751,7 @@ B - 16
 C - 12
 D - 10");
                         var answer10 = Console.ReadLine();
-                        answer10 = HelperFunctions.ValidateResult(answer10);
+                        answer10 = HelperFunctions.ValidateAnswer(answer10);
                         if (answer10.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
