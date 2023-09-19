@@ -45,13 +45,18 @@
             Console.WriteLine("CATEGORIES");
             Console.WriteLine("==========");
             Console.WriteLine(@"Select a category:
-1. Animals");
+1. Animals
+2. Geography");
 
             var gameSelection = Console.ReadLine();
             switch (gameSelection.Trim())
             {
                 case "1":
                     Animals.GetAnimalQuestions();
+                    break;
+
+                case "2":
+                    Geography.GetGeographyQuestions();
                     break;
 
                 default:
