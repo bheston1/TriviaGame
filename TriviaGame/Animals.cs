@@ -15,7 +15,7 @@
             }
         }
 
-        internal static void AnimalSet1(string message)
+        private static void AnimalSet1(string message)
         {
             int question = 1;
 
@@ -38,10 +38,14 @@ D - flock");
                         if (answer1.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer1.Trim().ToLower() != "c")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -57,10 +61,14 @@ D - red panda");
                         if (answer2.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -76,10 +84,14 @@ D - teeth");
                         if (answer3.Trim().ToLower() == "b")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -95,10 +107,14 @@ D - sugar glider");
                         if (answer4.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer4.Trim().ToLower() != "a")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -114,10 +130,14 @@ D - lima bean");
                         if (answer5.Trim().ToLower() == "d")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer5.Trim().ToLower() != "d")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -133,10 +153,14 @@ D - squirrel");
                         if (answer6.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer6.Trim().ToLower() != "c")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -152,10 +176,14 @@ D - sloth");
                         if (answer7.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer7.Trim().ToLower() != "a")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -171,10 +199,14 @@ D - 6 miles");
                         if (answer8.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer8.Trim().ToLower() != "a")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -190,10 +222,14 @@ D - tiger");
                         if (answer9.Trim().ToLower() == "c")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
@@ -209,10 +245,14 @@ D - on their tail");
                         if (answer10.Trim().ToLower() == "a")
                         {
                             Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         else if (answer10.Trim().ToLower() != "a")
                         {
                             Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
                         }
                         question++;
                         break;
