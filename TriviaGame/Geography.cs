@@ -524,5 +524,256 @@ D - Nevada");
                 }
             }
         }
+
+        private static void GeographySet3(string message)
+        {
+            int question = 1;
+
+
+            for (int questionCount = 0; questionCount < 10; questionCount++)
+            {
+                Console.Clear();
+                Console.WriteLine(message);
+
+                switch (question)
+                {
+                    case 1:
+                        Console.WriteLine(@"What river in the U.S. runs through the Grand Canyon?
+A - Colorado River
+B - Mississippi River
+C - Snake River
+D - Red River");
+                        var answer1 = Console.ReadLine();
+                        answer1 = HelperFunctions.ValidateResult(answer1);
+                        if (answer1.Trim().ToLower() == "a")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer1.Trim().ToLower() != "a")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 2:
+                        Console.WriteLine(@"What is the capital of Denmark?
+A - Budapest
+B - Amsterdam
+C - Berlin
+D - Copenhagen");
+                        var answer2 = Console.ReadLine();
+                        answer2 = HelperFunctions.ValidateResult(answer2);
+                        if (answer2.Trim().ToLower() == "d")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer2.Trim().ToLower() != "d")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 3:
+                        Console.WriteLine(@"What is the largest state in the U.S.?
+A - Texas
+B - Alaska
+C - North Dakota
+D - California");
+                        var answer3 = Console.ReadLine();
+                        answer3 = HelperFunctions.ValidateResult(answer3);
+                        if (answer3.Trim().ToLower() == "b")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer3.Trim().ToLower() != "b")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 4:
+                        Console.WriteLine(@"Which country has the abbreviation 'CH'?
+A - Chile
+B - China
+C - Switzerland
+D - Ukraine");
+                        var answer4 = Console.ReadLine();
+                        answer4 = HelperFunctions.ValidateResult(answer4);
+                        if (answer4.Trim().ToLower() == "c")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer4.Trim().ToLower() != "c")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 5:
+                        Console.WriteLine(@"The village of 'Fucking' is located in which country?
+A - New Zealand
+B - Poland
+C - Austria
+D - United Kingdom");
+                        var answer5 = Console.ReadLine();
+                        answer5 = HelperFunctions.ValidateResult(answer5);
+                        if (answer5.Trim().ToLower() == "c")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer5.Trim().ToLower() != "c")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 6:
+                        Console.WriteLine(@"What European country is often described as 'shaped like a boot'?
+A - Italy
+B - France
+C - Germany
+D - Belgium");
+                        var answer6 = Console.ReadLine();
+                        answer6 = HelperFunctions.ValidateResult(answer6);
+                        if (answer6.Trim().ToLower() == "a")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer6.Trim().ToLower() != "a")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 7:
+                        Console.WriteLine(@"Vatican City is enclaved withing what city...?
+A - Florence
+B - Venice
+C - Athens
+D - Rome");
+                        var answer7 = Console.ReadLine();
+                        answer7 = HelperFunctions.ValidateResult(answer7);
+                        if (answer7.Trim().ToLower() == "d")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer7.Trim().ToLower() != "d")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 8:
+                        Console.WriteLine(@"What is the deepest known point in the ocean?
+A - Challenger Deep
+B - Japan Trench
+C - Philippine Trench
+D - Peru-Chile Trench");
+                        var answer8 = Console.ReadLine();
+                        answer8 = HelperFunctions.ValidateResult(answer8);
+                        if (answer8.Trim().ToLower() == "a")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer8.Trim().ToLower() != "a")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 9:
+                        Console.WriteLine(@"What country contains the most lakes?
+A - Norway
+B - United States
+C - Canada
+D - Russia");
+                        var answer9 = Console.ReadLine();
+                        answer9 = HelperFunctions.ValidateResult(answer9);
+                        if (answer9.Trim().ToLower() == "c")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer9.Trim().ToLower() != "c")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+
+                    case 10:
+                        Console.WriteLine(@"Which of the Seven Wonders of the World still exists?
+A - The Colosseum in Rome
+B - Great Pyramid of Giza
+C - Leaning Tower of Pisa
+D - Great Wall of China");
+                        var answer10 = Console.ReadLine();
+                        answer10 = HelperFunctions.ValidateResult(answer10);
+                        if (answer10.Trim().ToLower() == "b")
+                        {
+                            Console.WriteLine("Correct!");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        else if (answer10.Trim().ToLower() != "b")
+                        {
+                            Console.WriteLine("Incorrect.");
+                            Console.WriteLine("Press ENTER");
+                            HelperFunctions.PressEnter();
+                        }
+                        question++;
+                        break;
+                }
+                if (questionCount == 9)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Game over. Your final score is ");
+                    HelperFunctions.PressEnter();
+                }
+            }
+        }
     }
 }
