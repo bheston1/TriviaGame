@@ -2,13 +2,64 @@
 {
     internal class MenuController
     {
-        internal static void ShowMenu()
+        internal static void MainMenu()
         {
             Console.Clear();
-            Console.WriteLine("Select an option:");
-            Console.WriteLine(@"1 - Play game
+            bool closeApp = false;
+            while (closeApp == false)
+            {
+                Console.WriteLine("MAIN MENU");
+                Console.WriteLine("=========");
+                Console.WriteLine(@"Select an option:
+1 - Play game
 2 - View previous games
 3 - Close application");
+
+                var menuInput = Console.ReadLine();
+                switch (menuInput.Trim())
+                {
+                    case "1":
+                        GameSelect();
+                        break;
+
+                    case "2":
+                        Reporting.ShowReports();
+                        break;
+
+                    case "3":
+                        closeApp = true;
+                        Environment.Exit(0);
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid command. Press ENTER");
+                        HelperFunctions.PressEnter();
+                        break;
+                }
+            }
+        }
+
+        internal static void GameSelect()
+        {
+            Console.Clear();
+            Console.WriteLine("CATEGORIES");
+            Console.WriteLine("==========");
+            Console.WriteLine(@"Select a category:
+1. Animals");
+
+            var gameSelection = Console.ReadLine();
+            switch (gameSelection.Trim())
+            {
+                case "1":
+                    Animals.GetAnimalQuestions();
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid command. Press ENTER");
+                    HelperFunctions.PressEnter();
+                    GameSelect();
+                    break;
+            }
         }
     }
 }
