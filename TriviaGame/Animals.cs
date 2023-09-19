@@ -151,7 +151,7 @@ D - lima bean");
                         break;
 
                     case 6:
-                        Console.WriteLine(@"What is the smalled mammal in the world?
+                        Console.WriteLine(@"What is the smallest mammal in the world?
 A - hamster
 B - guinea pig
 C - bumblebee bat
