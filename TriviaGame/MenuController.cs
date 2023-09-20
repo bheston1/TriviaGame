@@ -47,7 +47,8 @@
             Console.WriteLine(@"Select a category:
 1. Animals
 2. Geography
-3. Science");
+3. Science
+4. Random category");
 
             var gameSelection = Console.ReadLine();
             switch (gameSelection.Trim())
@@ -62,6 +63,10 @@
 
                 case "3":
                     Science.GetScienceQuestions();
+                    break;
+
+                case "4":
+                    RandomGame.GetCategory();
                     break;
 
                 default:
