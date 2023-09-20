@@ -23,7 +23,7 @@
 
             foreach (var report in _reports)
             {
-                Console.WriteLine($"{report.Date} - {report.Category}, Score: {report.Score}/{report.MaxScore}");
+                Console.WriteLine($"{report.Date} - Category: {report.Category}, Score: {report.Score}/{report.MaxScore}");
             }
 
             Console.WriteLine("Press ENTER to return to menu");
