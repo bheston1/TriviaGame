@@ -4,10 +4,10 @@
     {
         internal static void MainMenu()
         {
-            Console.Clear();
             bool closeApp = false;
             while (closeApp == false)
             {
+                Console.Clear();
                 Console.WriteLine("MAIN MENU");
                 Console.WriteLine("=========");
                 Console.WriteLine(@"Select an option:
