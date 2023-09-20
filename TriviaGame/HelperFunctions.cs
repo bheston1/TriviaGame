@@ -13,7 +13,7 @@
 
         internal static string ValidateAnswer(string answer)
         {
-            while (string.IsNullOrEmpty(answer))
+            while (string.IsNullOrEmpty(answer) || Int32.TryParse(answer, out _))
             {
                 Console.Write("\nPlease enter a valid answer and try again.\nAnswer: ");
                 answer = Console.ReadLine();
