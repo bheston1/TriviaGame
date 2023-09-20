@@ -545,7 +545,7 @@ D - camel spider");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }
@@ -810,7 +810,7 @@ D - 10");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }

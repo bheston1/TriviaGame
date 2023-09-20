@@ -280,7 +280,7 @@ D - Giza");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }
@@ -545,7 +545,7 @@ D - Nevada");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }
@@ -810,7 +810,7 @@ D - Great Wall of China");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }

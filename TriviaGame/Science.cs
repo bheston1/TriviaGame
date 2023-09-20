@@ -282,7 +282,7 @@ D - copper");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }
@@ -547,7 +547,7 @@ D - Theory of General Relativity");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }
@@ -812,7 +812,7 @@ D - condensation");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }
