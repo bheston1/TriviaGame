@@ -26,6 +26,8 @@
         private static void GeographySet1(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -48,6 +50,7 @@ D - Broad Peak");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "a")
                         {
@@ -71,6 +74,7 @@ D - India");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
@@ -94,6 +98,7 @@ D - Orange River");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -117,6 +122,7 @@ D - Mexico City");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "d")
                         {
@@ -140,6 +146,7 @@ D - Arctic Ocean");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "a")
                         {
@@ -163,6 +170,7 @@ D - New Zealand");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "c")
                         {
@@ -186,6 +194,7 @@ D - Wyoming");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "a")
                         {
@@ -209,6 +218,7 @@ D - Congo River");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "b")
                         {
@@ -232,6 +242,7 @@ D - U.K. Dollar");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
@@ -255,6 +266,7 @@ D - Giza");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "d")
                         {
@@ -272,11 +284,15 @@ D - Giza");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Geography);
         }
 
         private static void GeographySet2(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -299,6 +315,7 @@ D - Asia");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "b")
                         {
@@ -322,6 +339,7 @@ D - Seattle");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
@@ -345,6 +363,7 @@ D - Australia");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -368,6 +387,7 @@ D - Ottawa");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "d")
                         {
@@ -391,6 +411,7 @@ D - Venice");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "c")
                         {
@@ -414,6 +435,7 @@ D - 6");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "c")
                         {
@@ -437,6 +459,7 @@ D - Oak");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "a")
                         {
@@ -460,6 +483,7 @@ D - Asia");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "b")
                         {
@@ -483,6 +507,7 @@ D - Switzerland");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "d")
                         {
@@ -506,6 +531,7 @@ D - Nevada");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "c")
                         {
@@ -523,11 +549,15 @@ D - Nevada");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Geography);
         }
 
         private static void GeographySet3(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -550,6 +580,7 @@ D - Red River");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "a")
                         {
@@ -573,6 +604,7 @@ D - Copenhagen");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "d")
                         {
@@ -596,6 +628,7 @@ D - California");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -619,6 +652,7 @@ D - Ukraine");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "c")
                         {
@@ -642,6 +676,7 @@ D - United Kingdom");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "c")
                         {
@@ -665,6 +700,7 @@ D - Belgium");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "a")
                         {
@@ -688,6 +724,7 @@ D - Rome");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "d")
                         {
@@ -711,6 +748,7 @@ D - Peru-Chile Trench");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "a")
                         {
@@ -734,6 +772,7 @@ D - Russia");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
@@ -757,6 +796,7 @@ D - Great Wall of China");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "b")
                         {
@@ -774,6 +814,8 @@ D - Great Wall of China");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Geography);
         }
     }
 }

@@ -26,6 +26,8 @@
         private static void AnimalSet1(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -48,6 +50,7 @@ D - flock");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "c")
                         {
@@ -71,6 +74,7 @@ D - red panda");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
@@ -94,6 +98,7 @@ D - teeth");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -117,6 +122,7 @@ D - sugar glider");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "a")
                         {
@@ -140,6 +146,7 @@ D - lima bean");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "d")
                         {
@@ -163,6 +170,7 @@ D - squirrel");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "c")
                         {
@@ -186,6 +194,7 @@ D - sloth");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "a")
                         {
@@ -209,6 +218,7 @@ D - 6 miles");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "a")
                         {
@@ -232,6 +242,7 @@ D - tiger");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
@@ -255,6 +266,7 @@ D - on their tail");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "a")
                         {
@@ -268,15 +280,19 @@ D - on their tail");
                 if (questionCount == 9)
                 {
                     Console.Clear();
-                    Console.WriteLine("Game over. Your final score is ");
+                    Console.WriteLine($"Game over. Your final score is {score}");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Animals);
         }
 
         private static void AnimalSet2(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -299,6 +315,7 @@ D - doe");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "a")
                         {
@@ -322,6 +339,7 @@ D - up to 20,000");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
@@ -345,6 +363,7 @@ D - bearded dragon");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -368,6 +387,7 @@ D - pandemonium");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "d")
                         {
@@ -391,6 +411,7 @@ D - chicken");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "c")
                         {
@@ -414,6 +435,7 @@ D - drake");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "d")
                         {
@@ -437,6 +459,7 @@ D - crocodile");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "a")
                         {
@@ -460,6 +483,7 @@ D - barracuda");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "a")
                         {
@@ -483,6 +507,7 @@ D - starfish");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
@@ -506,6 +531,7 @@ D - camel spider");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "a")
                         {
@@ -523,11 +549,15 @@ D - camel spider");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Animals);
         }
 
         private static void AnimalSet3(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -550,6 +580,7 @@ D - they carry it in one arm");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "b")
                         {
@@ -573,6 +604,7 @@ D - rabbit");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
@@ -596,6 +628,7 @@ D - pufferfish");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -619,6 +652,7 @@ D - feet");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "d")
                         {
@@ -642,6 +676,7 @@ D - bull shark");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "a")
                         {
@@ -665,6 +700,7 @@ D - hoglet");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "d")
                         {
@@ -688,6 +724,7 @@ D - 8%");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "c")
                         {
@@ -711,6 +748,7 @@ D - France");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "b")
                         {
@@ -734,6 +772,7 @@ D - naked mole-rat");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
@@ -757,6 +796,7 @@ D - 10");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "d")
                         {
@@ -774,6 +814,8 @@ D - 10");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Animals);
         }
     }
 }

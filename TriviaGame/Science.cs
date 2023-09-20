@@ -1,4 +1,6 @@
-﻿namespace TriviaGame
+﻿using static System.Formats.Asn1.AsnWriter;
+
+namespace TriviaGame
 {
     internal class Science
     {
@@ -26,6 +28,8 @@
         private static void ScienceSet1(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -48,6 +52,7 @@ D - Mercury");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "b")
                         {
@@ -71,6 +76,7 @@ D - diamond");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
@@ -94,6 +100,7 @@ D - thermal");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -117,6 +124,7 @@ D - electrical current");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "c")
                         {
@@ -140,6 +148,7 @@ D - Carl Sagan");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "a")
                         {
@@ -163,6 +172,7 @@ D - fusion");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "b")
                         {
@@ -186,6 +196,7 @@ D - hardness");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "b")
                         {
@@ -209,6 +220,7 @@ D - kelvin");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "d")
                         {
@@ -232,6 +244,7 @@ D - silver");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
@@ -255,6 +268,7 @@ D - copper");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "a")
                         {
@@ -272,11 +286,15 @@ D - copper");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Science);
         }
 
         private static void ScienceSet2(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -299,6 +317,7 @@ D - erosion");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "d")
                         {
@@ -322,6 +341,7 @@ D - gravitational force");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "a")
                         {
@@ -345,6 +365,7 @@ D - liquidity");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -368,6 +389,7 @@ D - convection");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "d")
                         {
@@ -391,6 +413,7 @@ D - Jupiter");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "c")
                         {
@@ -414,6 +437,7 @@ D - Galileo");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "b")
                         {
@@ -437,6 +461,7 @@ D - Boris Yegorov");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "c")
                         {
@@ -460,6 +485,7 @@ D - nickel");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "a")
                         {
@@ -483,6 +509,7 @@ D - outer core");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "c")
                         {
@@ -506,6 +533,7 @@ D - Theory of General Relativity");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "b")
                         {
@@ -523,11 +551,15 @@ D - Theory of General Relativity");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Science);
         }
 
         private static void ScienceSet3(string message)
         {
             int question = 1;
+            int score = 0;
+            int maxScore = 10;
 
 
             for (int questionCount = 0; questionCount < 10; questionCount++)
@@ -550,6 +582,7 @@ D - mechanical energy");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer1.Trim().ToLower() != "c")
                         {
@@ -573,6 +606,7 @@ D - Wolf-Lundmark-Melotte");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer2.Trim().ToLower() != "b")
                         {
@@ -596,6 +630,7 @@ D - Isaac Newton");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer3.Trim().ToLower() != "b")
                         {
@@ -619,6 +654,7 @@ D - 29 days");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer4.Trim().ToLower() != "a")
                         {
@@ -642,6 +678,7 @@ D - silver");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer5.Trim().ToLower() != "d")
                         {
@@ -665,6 +702,7 @@ D - oxygen");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer6.Trim().ToLower() != "a")
                         {
@@ -688,6 +726,7 @@ D - hematology");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer7.Trim().ToLower() != "c")
                         {
@@ -711,6 +750,7 @@ D - nitrogen");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer8.Trim().ToLower() != "d")
                         {
@@ -734,6 +774,7 @@ D - neutron");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer9.Trim().ToLower() != "b")
                         {
@@ -757,6 +798,7 @@ D - condensation");
                             Console.WriteLine("Correct!");
                             Console.WriteLine("Press ENTER");
                             HelperFunctions.PressEnter();
+                            score++;
                         }
                         else if (answer10.Trim().ToLower() != "a")
                         {
@@ -774,6 +816,8 @@ D - condensation");
                     HelperFunctions.PressEnter();
                 }
             }
+
+            Reporting.AddToReports(score, maxScore, Reporting.GameType.Science);
         }
     }
 }
